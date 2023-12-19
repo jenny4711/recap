@@ -16,7 +16,7 @@ function App() {
       <ReCAPTCHA
         sitekey="6LdHKjIpAAAAAHHQ2arVbfNBarJamB5eIEYohuGv"
         onChange={handleCaptchaChange}
-       
+       size="invisible"
       />
       {captchaValue && <p>Captcha Value: {captchaValue}</p>}
     </div>
